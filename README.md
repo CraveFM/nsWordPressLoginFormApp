@@ -2,7 +2,7 @@
 
 [<img src="https://github.com/angular/angular/blob/master/aio/src/assets/images/logos/angular/angular.png" width="31" height="31"></img>](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155) Inspired by a Good-Looking Login Form App but the backdend uses `WordPress` rather than `Kinvey`
 
-[<img src="https://raw.githubusercontent.com/NativeScript/code-samples/master/screens/login-form-ios-2.gif" width="210" height="375"></img>](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155)
+[<img src="docs/nsWordPressLoginFormApp.gif" width="210" height="375"></img>](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155)
 
 Example taken from [:bookmark:`nativescript.rocks`](https://plugins.nativescript.rocks/samples) and can be used as a template since it has already been converted to [NativeScript 7](https://nativescript.org/blog/nativescript-7-announcement)
 
