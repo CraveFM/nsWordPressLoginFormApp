@@ -250,6 +250,16 @@ $ find src -name "*.spec.ts" -exec rm {} \;
     }
 ```
 
+* add the `import` statements
+
+```typescript
+import { ViewChild, ElementRef } from '@angular/core';
+import { alert, prompt, Page } from "@nativescript/core";
+import { RouterExtensions } from "@nativescript/angular";
+import { User } from "../shared/user";
+import { UserService } from "../shared/user.service";
+```
+
 - [ ] Style Sheet
 
 ```css
@@ -431,6 +441,13 @@ import { LoginComponent } from "./login/login.component";
         this.userService.logout();
         this.routerExtensions.navigate(["/login"], { clearHistory: true });
     }
+```
+
+* `import` statements
+
+```
+import { RouterExtensions } from "@nativescript/angular";
+import { UserService } from "../shared/user.service";
 ```
 
 ## :o: Customization
