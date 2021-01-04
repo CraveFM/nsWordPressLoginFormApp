@@ -46,7 +46,7 @@ $ npm install @schematics/angular @nativescript/schematics tslint --save-dev
 - [ ] Generate the `User` Class Model
 
 ```
-$ ng generate class shared/UserModel --skip-tests=true
+$ ng generate class shared/User --skip-tests=true
 ```
 
 - [ ] Edit `user.ts` and add the following instance variables (fields) to the `User` class
