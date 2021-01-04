@@ -459,3 +459,10 @@ Open up the manifest file `AndroidManifest.xml` (in `App_Resource/Android/src/ma
 ```xml
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
+
+
+## :x: Interceptor
+
+```
+$ ng generate class @auth/interceptors/jwt --skip-tests=true
+```
