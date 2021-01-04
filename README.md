@@ -41,16 +41,12 @@ $ curl https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_
 $ npm install @schematics/angular @nativescript/schematics tslint --save-dev 
 ```
 
-```
-$ npm install kinvey-nativescript-sdk --save
-```
-
 :pushpin: User Service
 
 - [ ] Generate the `User` Class Model
 
 ```
-$ % ng generate class shared/UserModel --skip-tests=true
+$ ng generate class shared/UserModel --skip-tests=true
 ```
 
 - [ ] Edit `user.ts` and add the following instance variables (fields) to the `User` class
