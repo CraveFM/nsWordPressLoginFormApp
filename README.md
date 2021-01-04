@@ -87,7 +87,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   logout() {
   }
 
-  resetPassword(email) {
+  resetPassword(email: string) {
   }
 ```
 
