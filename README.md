@@ -15,25 +15,7 @@ $ ns create nsWordPressLoginFormApp --template https://github.com/CraveFM/nsWord
 ## :bookmark: Create a project from Scratch
 
 ```
-$ ns create nsGoodLookingLoginFormApp --template @nativescript/template-blank-ng
-```
-
-:gear: Reverse Engineering from [PlayGround](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155)'s Example
-
-- [ ] Create a `NSPlayground` directory 
-
-- [ ] Download the old {N} 6.0 project from [Playground]((https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155))
-
-- [ ] Move the `NSPlayground.zip` file to the `NSPlayground` directory in the project
-
-```
-$ mv ~/Downloads/NSPlayground.zip NSPlayground
-```
-
-- [ ] Extract the {N} 6.0 project files in the `NSPlayground` directory
-
-```
-$ unzip NSPlayground/NSPlayground.zip -d NSPlayground
+$ ns create nsWordPressLoginFormApp --template @nativescript/template-blank-ng
 ```
 
 - [ ] Assets
