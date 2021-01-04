@@ -20,10 +20,17 @@ $ ns create nsWordPressLoginFormApp --template @nativescript/template-blank-ng
 
 - [ ] Assets
 
-* copy `images` folder to the `src/assets` directory
+* Images are placed in the `src/assets` directory
 
 ```
-$ cp -r NSPlayground/app/images src/assets
+$ mkdir src/assets
+```
+
+* Download the image
+
+```
+$ curl https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/64px-WordPress_blue_logo.svg.png \
+       -o src/assets/logo.png
 ```
 
 ## :a: Login Service Classes
