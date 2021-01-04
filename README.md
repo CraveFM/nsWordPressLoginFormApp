@@ -285,7 +285,7 @@ import { UserService } from "../shared/user.service";
   font-weight: 600;
   margin-bottom: 70;
   text-align: center;
-  color: #D51A1A;
+  color: #21759b;
 }
 
 .input-field {
