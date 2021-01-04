@@ -1,6 +1,6 @@
 # nsWordPressLoginFormApp
 
-[<img src="https://github.com/angular/angular/blob/master/aio/src/assets/images/logos/angular/angular.png" width="31" height="31"></img>](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155) Inspired by a Good-Looking Login Form App but the backdend uses `WordPress oAuth2`(https://wordpress.org/plugins/oauth2-provider/) rather than `Kinvey`
+[<img src="https://github.com/angular/angular/blob/master/aio/src/assets/images/logos/angular/angular.png" width="31" height="31"></img>](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155) Inspired by a Good-Looking Login Form App but the backdend uses [`WordPress oAuth2`](https://wordpress.org/plugins/oauth2-provider/) rather than `Kinvey`
 
 [<img src="docs/nsWordPressLoginFormApp.gif" width="210" height="375"></img>](https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=6155)
 
