@@ -506,3 +506,7 @@ export class JwtInterceptor implements HttpInterceptor {
 
 }
 ```  
+
+# References
+
+https://stackoverflow.com/questions/56096867/httpinterceptor-in-nativescript-not-working-properly
