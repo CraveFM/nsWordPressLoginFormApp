@@ -471,6 +471,10 @@ $ ng generate class @auth/interceptors/jwt --skip-tests=true
 $ ng generate service @auth/interceptors/jwt.interceptor --skip-tests=true
 ```
 
+```
+$ mv src/app/@auth/interceptors/jwt.interceptor.service.ts src/app/@auth/interceptors/jwt.interceptor.ts
+```
+
 The `jwt` Interceptor is implemented as a Service that will implement `HttpInterceptor` along with the `intercept` method
 
 ```
