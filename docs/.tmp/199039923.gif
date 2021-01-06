@@ -1,0 +1,30 @@
+export CLIENT_ID="c8A3isi8Xjw4ecLAY2gdgdgdgdTONd9d6p"
+export CLIENT_SECRET="6jLstaGmgiBJ4H8UAqDzolTdgdgdgD0Vi3sFBHV"
+export OAUTH_NAME="setrar@ggdgd.com"
+export OAUTH_PWD="fdfdfdfdf"
+export TOKEN=“REtDVkpsMEdRQndzZzIxTWFYcWNReEhucjpOYVR4YnZ3eU1IZlpndTdySHNyZFRiVDIzMm16MU9iMzJqcmFIQmND”
+
+
+// works only with grant type : password
+curl -v -X POST https://wp.andriamamonjy.com/oauth/token \
+       -d "client_id=$CLIENT_ID" \
+       -d "client_secret:$CLIENT_SECRET" \
+       -d "grant_type=password" \
+       -d "username=$OAUTH_NAME" \
+       -d "password=$OAUTH_PWD"
+
+curl https://wp.andriamamonjy.com/oauth/token -d 'grant_type=password&client_id=$CLIENT_ID&client_secret=$CLIENT_SECRET&username=$OAUTH_NAME&password=$OAUTH_PWD'
+
+
+curl -v -X POST https://wp.andriamamonjy.com/oauth/token \
+       -d "grant_type=authorization_code" \
+       -d "client_id=$CLIENT_ID" \
+       -d "client_secret:$CLIENT_SECRET" \
+       -d "username=$OAUTH_NAME" \
+       -d "password=$OAUTH_PWD"
+
+
+// works only with grant type : code
+curl -v -X POST https://wp.andriamamonjy.com/oauth/authorize \
+       -d "client_id=$CLIENT_ID" \
+       -d "response_type=code"
