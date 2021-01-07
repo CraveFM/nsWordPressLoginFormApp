@@ -3,7 +3,7 @@ export CLIENT_SECRET="6jLstaGmgiBJ4H8UAqDzolTdgdgdgD0Vi3sFBHV"
 export OAUTH_NAME="setrar@ggdgd.com"
 export OAUTH_PWD="fdfdfdfdf"
 export TOKEN=“REtDVkpsMEdRQndzZzIxTWFYcWNReEhucjpOYVR4YnZ3eU1IZlpndTdySHNyZFRiVDIzMm16MU9iMzJqcmFIQmND”
-export WP_SITE="wp.mysite.com
+export WP_SITE="wp.mysite.com"
 
 
 // works only with grant type : password
